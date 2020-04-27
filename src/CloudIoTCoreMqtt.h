@@ -29,7 +29,6 @@ private:
   int __max_backoff__ = 60000; // maximum backoff, ms
   int __jitter__ = 500;        // max random jitter, ms
   unsigned long iat = 0;       // "Issued At Time" time parameter for jwt
-  int __max_backoff__ = 60000;
   unsigned long _backoff_at_millis = 0;
   boolean logConnect = true;
   boolean useLts = false;
